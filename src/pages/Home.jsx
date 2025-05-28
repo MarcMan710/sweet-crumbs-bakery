@@ -59,9 +59,9 @@ const Home = () => {
               <div key={item.id} className="bg-rose-50 rounded-lg overflow-hidden shadow-md">
                 <div className="h-48 bg-rose-200">
                   {/* Add actual images later */}
-                  <div className="w-full h-full flex items-center justify-center text-rose-400">
-                    [Image Placeholder]
-                  </div>
+                    <div className="w-full h-full flex items-center justify-center text-rose-400">
+                      <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
+                    </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-semibold text-rose-800 mb-2">{item.name}</h3>

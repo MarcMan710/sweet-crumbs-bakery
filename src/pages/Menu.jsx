@@ -88,9 +88,8 @@ const Menu = () => {
                   className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
                 >
                   <div className="h-48 bg-rose-200">
-                    {/* Add actual images later */}
                     <div className="w-full h-full flex items-center justify-center text-rose-400">
-                      [Image Placeholder]
+                      <img src={item.image} alt={item.name} className="w-full h-full object-cover" />
                     </div>
                   </div>
                   <div className="p-6">
