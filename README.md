@@ -25,8 +25,8 @@ This project is a simple, clean website for the Sweet Crumbs Bakery, built using
 - **Order a Cake Page:** Form for submitting custom cake orders.
 - Responsive design for various screen sizes.
 - Warm and cozy color scheme and friendly typography.
-- Optional: Instagram feed embed.
-- Optional: Newsletter signup form.
+- (TBA) Instagram feed embed.
+- (TBA) Newsletter signup form.
 
 ## Technologies Used
 
